@@ -47,12 +47,12 @@
     width: 100%;
 }
 
-.poly_typemenu__menulist-list-item {
-
+.poly_typemenu__menulist-item {
+    width: 100%;    
 }
 
 .poly_typemenu__menulist-item-type {
-    
+    width: 100%;    
 }
 
 .poly_typemenu__menulist-item-category {
@@ -72,7 +72,7 @@
 .poly_typemenu__menulist-header-button {
     flex: 1;
     flex-direction: row;
-    padding: 0;
+    padding: 0px;
     justify-content: space-between;
     border-width: 0px;
 }

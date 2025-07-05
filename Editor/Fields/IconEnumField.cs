@@ -52,7 +52,6 @@ namespace Polymorphism4Unity.Editor.Fields
                 else if (!string.IsNullOrEmpty(BuiltInIconName))
                 {
                     icon.style.backgroundImage = (Texture2D)EditorGUIUtility.IconContent(BuiltInIconName).image;
-                    Debug.Log(icon.style.backgroundImage.value);
                     icon.style.display = DisplayStyle.Flex;
                 }
                 else
